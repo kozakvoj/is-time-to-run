@@ -1,0 +1,22 @@
+{
+  "name": "is-time-to-run",
+  "version": "1.0.0",
+  "description": "Allow repeating your script after certain time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozakvoj/is-time-to-run.git"
+  },
+  "author": "Vojtech Kozak",
+  "bugs": {
+    "url": "https://github.com/kozakvoj/is-time-to-run/issues"
+  },
+  "homepage": "https://github.com/kozakvoj/is-time-to-run#readme",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "winston": "^2.2.0"
+  }
+}
