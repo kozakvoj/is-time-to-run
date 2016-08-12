@@ -1,5 +1,7 @@
 # is-time-to-run
 
+[![NPM](https://nodei.co/npm/is-time-to-run.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/is-time-to-run/)
+
 ## Motivation
 I run a script which checks availability of websites. This script is run in crone every 5 minutes. If any of the website is unavailable I need to send an e-mail. But I don't want to send this e-mail every 5 minutes but every hour.
 
