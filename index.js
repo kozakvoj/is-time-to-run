@@ -36,7 +36,7 @@ function updateTime(path, callback) {
 
 function readTime(path, callback) {
     fs.readFile(path + FILE_NAME, (err, data) => {
-        if (err && err.errno !== -4058) throw exception;
+        if (err && err.errno !== -4058) throw 'Error IO';
 
         return data ? callback(err, data.toString()) : callback(err, null);
     });
